@@ -1,26 +1,126 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/static/css/bdc.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
+<!doctype html>
+<html lang="en-au">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Asperger Media">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" type="text/css" href="/static/assets/css/aspergermedia.css" media="screen">
+        <link rel="stylesheet" href="https://use.typekit.net/yua8lnj.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="/static/assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/static/assets/js/moment.min.js"></script>
+        <script type="text/javascript" src="/static/assets/js/livestamp.min.js"></script>
+        <script type="text/javascript" src="/static/assets/js/aspmd.js"></script>
+        <link rel="icon" href="/favicon.ico">
+    </head>
+    <body>
+        <div id="header">
+            <div id="aspnt-logo">
+                <img src="/static/img/aspergermedia.png">
+            </div>
+            <div id="user-links">
+                <a href="/user/login">log in</a>
+                /
+                <a href="/user/register">create account</a>
+            </div>
+        </div>
+        <div id="nav">
+            <ul id="nav-actual">
+                <li>
+                    <a href="/">home</a>
+                </li>
+            </div>
+        </div>
+        <div id="body"></div>
 			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<p>Copyright © 2019 | Ben Cousins</p>
-			</footer>
+		</div>
+		<div id="footer">
+			<div id="links">
+				<dl>
+					<dt>community forums</dt>
+					<dd><a href="/forums/">forums index</a></dd>
+					
+					<dt class="top-padding">aspergers network</dt>
+					<dd><a href="/forums/forum/17">forum feedback</a></dd>
+					<dd><a href="/forums/forum/18">introduction hub</a></dd>
+					<dd><a href="/forums/forum/21">blog discussion</a></dd>
+					
+					<dt class="top-padding">support forums</dt>
+					<dd><a href="/forums/forum/5">general support</a></dd>
+					<dd><a href="/forums/forum/42">general autism discussion</a></dd>
+					<dd><a href="/forums/forum/6">parents, teachers, carers</a></dd>
+				</dl>
+				<dl>
+					<dt>general forums</dt>
+					<dd><a href="/forums/forum/14">the coffee lounge</a></dd>
+					<dd><a href="/forums/forum/7">education & schooling</a></dd>
+					<dd><a href="/forums/forum/10">love, dating, marriage</a></dd>
+					<dd><a href="/forums/forum/45">long distance dating</a></dd>
+					<dd><a href="/forums/forum/41">workplace woes</a></dd>
+					
+					<dt class="top-padding">hobbies & interests</dt>
+					<dd><a href="/forums/forum/24">transport</a></dd>
+					<dd><a href="/forums/forum/15">technology & on the internet</a></dd>
+					<dd><a href="/forums/forum/11">other hobbies</a></dd>
+					
+					<dt class="top-padding">web & computers</dt>
+					<dd><a href="/forums/forum/47">computers & hardware</a></dd>
+					<dd><a href="/forums/forum/48">operating systems</a></dd>
+					<dd><a href="/forums/forum/49">servers & systems administration</a></dd>
+					<dd><a href="/forums/forum/50">website administration</a></dd>
+					
+					<dt class="top-padding">multimedia</dt>
+					<dd><a href="/forums/forum/8">media & videos</a></dd>
+					<dd><a href="/forums/forum/12">in the news</a></dd>
+				</dl>
+				<dl>
+					<dt>wiki</dt>
+					<dd><a href="/wiki/">wiki index</a></dd>
+					<dd><a href="/wiki/recent">recently updated</a></dd>
+					
+					<dt class="top-padding">news</dt>
+					<dd><a href="/news/all">all news articles</a></dd>
+					<dd><a href="/news/recent">recent news articles</a></dd>
+				</dl>
+			</div>
+			<div id="copyright">
+				<dl>
+					<dt>asperger's network</dt>
+					<dd>version 3.0.0 Alpha 1 | 'what the hell is this'</dd>
+					<dd>copyright © 2019 asperger media pty ltd</dd>
+					<dd>website developed in-house by <a href="//bdc.id.au" target="_new">ben cousins</a></dd>
+					
+					<dt class="top-padding">social media</dt>
+					<dd>asperger's network is available on</dd>
+					<dd>
+						<a href="//fb.me/aspergersnetwork" target="_new">facebook</a> |
+						<a href="//twitter.com/aspergersnetwrk" target="_new">twitter</a> |
+						<a href="//instagram.com/aspergersnetwork" target="_new">instagram</a>
+					</dd>
+					
+					<dt class="top-padding">quick links</dt>
+					<dd>
+						<a href="/forums">forums</a> |
+						<a href="/wiki">wiki</a> |
+						<a href="/news">news</a>
+					</dd>
+				</dl>
+			</div>
+			<script type="text/javascript">
+				var navTop = $('#nav').offset().top;
+		
+				$(window).scroll(function(){
+					if ($(this).scrollTop() >= navTop) {
+						$('#nav').css('position', 'fixed');
+						$('#nav').css('top', '0');
+					} else {
+						$('#nav').css('position', 'absolute');
+						$('#nav').css('top', '81px');
+					}
+				});
+			</script>
 		</body>
-	</html>
+		</html>
+		

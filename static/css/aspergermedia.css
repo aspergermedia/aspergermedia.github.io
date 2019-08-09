@@ -1,0 +1,462 @@
+/*
+ aspergermedia.css
+ Asperger Media Website
+ Asperger Media © 2019
+ */
+
+/*
+ Global styles
+ */
+
+ body{
+    margin:0px!important;
+}
+/*
+ Header styles
+ */
+
+#header{
+    width:80%;
+    max-width:1150px;
+    height:75px;
+    margin:0 auto;
+    margin-top:6px;
+}
+
+#header #aspnt-logo {
+    width:50%;
+    float:left;
+}
+
+#header #aspnt-logo img{
+    height:50px;
+    margin-top:12px;
+}
+
+#header #user-links {
+    width:40%;
+    float:right;
+    text-align:right;
+    font-family: 'century-gothic', sans-serif;
+    font-size: 14pt;
+    margin-top:25px;
+    margin-right: 100px!important;
+    color: #000;
+}
+
+#header #user-links a {
+    color:#000;
+    text-decoration:none;
+}
+
+#header #user-links a:visited {
+    color:#000;
+    text-decoration:none;
+}
+
+#header #user-links a:hover {
+    color:#000;
+    text-decoration:underline;
+}
+
+#logo{
+    max-height:180px!important;
+}
+
+/*
+ Navigation styles
+ */
+
+#nav{
+    width:100%;
+    height:60px;
+    margin-left:0px;
+    background-color:#008AFF;
+    color:#fff;
+    overflow:hidden;
+    position:absolute;
+    top:81px;
+}
+
+#nav-actual{
+    width:83%;
+    max-width:1190px;
+    margin: 0 auto;
+}
+
+#nav #nav-actual li{
+    list-style-type:none;
+    margin-top:0px;
+}
+
+#nav #nav-actual li a{
+    padding:17px;
+    color: #fff;
+    font-size:16pt;
+    display: block;
+    text-decoration:none;
+    float:left;
+    font-family: 'century-gothic', sans-serif;
+}
+
+#nav #nav-actual a:hover{
+    background-color:#3100BC
+}
+
+/*
+ Body styles
+ */
+
+#body{
+    width:80%;
+    max-width:1150px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+
+#body .heading{
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+ Hero Unit
+ */
+
+#body #hero-unit {
+    margin-top:58px;
+    height:220px;
+    background: #aaa!important;
+}
+
+#body #hero-unit h1{
+    font-family: 'century-gothic', sans-serif;
+    text-align: center;
+    border-top:100px;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#body #hero-unit h3{
+    font-family: 'open-sans', sans-serif;
+    text-align: center;
+    color:#fff;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+/*
+ News Items
+*/
+#body .news-items{
+    /* unset */
+}
+
+#body #todays-highlights {
+    border-top: 1px solid #ccc;
+}
+
+#body #todays-highlights .news-items .news-card{
+    width:44%;
+    height: 400px;
+    float:left;
+    padding: 34px;
+    padding-bottom: 40px!important;
+    padding-top:10px!important;
+    
+}
+
+#body #todays-highlights .news-items .news-card .news-image{
+    border-top-left-radius:18px;
+    border-top-right-radius:18px;
+    height:200px;
+    overflow:hidden;
+    background-repeat: no-repeat, repeat;
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#body #todays-highlights .news-items .news-card .news-story .heading{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-top: 0px;
+    padding:10px;
+    font-size:14pt;
+    height:36px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+#body #todays-highlights .news-items .news-card .news-story .subheading{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-top: -38px;
+    margin-bottom:22px;
+    padding:10px;
+    text-align:center;
+    font-family:Arial, sans-serif;
+}
+
+#body #todays-highlights .news-items .news-card .news-story .news-intro{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: -22px;
+    padding:10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:10pt;
+    min-height:100px;
+    height:100px;
+    max-height:100px;
+    overflow: hidden;
+}
+
+#body #all-news {
+    border-top: 1px solid #ccc;
+    
+}
+
+/*
+ Footer styles
+ */
+
+#footer{
+    width:80%;
+    max-width:1150px;
+    margin: 0 auto;
+}
+
+#footer #links{
+    width: 85%;
+}
+
+#footer #links dl{
+    width:27.5%;
+    float:left;
+}
+
+#footer #links dl dt{
+    font-family: 'century-gothic', sans-serif;
+    font-size:12pt;
+}
+
+#footer #links dl dt.top-padding{
+    margin-top:15px;
+}
+
+#footer #links dl dd{
+    list-style-type:none;
+    margin-left:10px;
+}
+
+#footer #links dl dd a{
+    font-family: 'century-gothic', sans-serif;
+    text-decoration:none;
+    font-size:10pt;
+}
+
+#footer #links dl dd a:hover{
+    font-family: 'century-gothic', sans-serif;
+    text-decoration:underline;
+}
+
+#footer #links dt dd a:visited{
+    font-family: 'century-gothic', sans-serif;
+    color:inherit;
+}
+
+#footer #copyright dl{
+    width:29%;
+    float:right;
+}
+
+#footer #copyright dl dt{
+    font-size:12pt;
+    font-family: 'century-gothic', sans-serif;
+    text-align:right;
+}
+
+#footer #copyright dl dt.top-padding{
+    margin-top:15px;
+}
+
+#footer #copyright dl dd{
+    list-style-type:none;
+    margin-left:10px;
+    font-family: 'century-gothic', sans-serif;
+    text-align:right;
+    font-size:10pt;
+}
+
+#footer #copyright dl dd a{
+    text-decoration:none;
+    color: #000;
+}
+
+#footer #copyright dl dd a:hover{
+    text-decoration:underline;
+    color: #00f;
+}
+
+#footer #copyright dt dd a:visited{
+    color:inherit;
+    color:#000
+}
+
+/*
+ Responsive hacks
+ */
+
+/*
+ iPad Pro 12.5" Portrait
+ */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #header #user-links{
+        margin-top:-43px;
+        margin-right: 81px!important;
+    }
+    
+    #nav-actual{
+        width:84%!important;
+    }
+    
+    #body #todays-highlights .news-items .news-card{
+        width:40%!important;
+        padding:40px!important;
+        padding-bottom: 60px!important;
+    }
+    
+    #footer{
+        width:95%;
+    }
+    
+    #footer #links dl{
+        width:22%;
+        float:left;
+        padding: 6px;
+        padding-top:0px;
+    }
+    
+    #footer #links dl dt{
+        font-size:14pt;
+    }
+    
+    #footer #copyright dl{
+        width:40%;
+        float:right;
+    }
+}
+
+
+/*
+iPad Pro 12.5" Landscape
+ */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+   #header #user-links{
+        /*margin-top:-43px;*/
+        margin-right: 81px!important;
+    }
+    
+    #body #todays-highlights .news-items .news-card{
+        width:40%!important;
+        padding:40px!important;
+        padding-bottom: 60px!important;
+    }
+}
+
+/*
+ Other iPad Portrait
+ */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #header #user-links{
+        margin-top:-43px;
+        margin-right: 81px!important;
+    }
+    
+    #body #todays-highlights .news-items .news-card{
+        width:40%!important;
+        padding:32px!important;
+        padding-bottom: 80px!important;
+    }
+}
+
+/*
+ Other iPad Landscape
+ */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #header #user-links{
+        margin-top:-43px;
+        margin-right: 81px!important;
+    }
+    
+    #body #todays-highlights .news-items .news-card{
+        width:40%!important;
+        padding:40px!important;
+        padding-bottom: 60px!important;
+    }
+}
+
+/*
+ Phone views
+ */
+@media screen and (max-width: 500px) {
+    body{
+        /*max-width: 100%!important;*/
+        margin: 0px!important;
+    }
+    
+    #header{
+        display:none;
+    }
+
+    #nav{
+        top:0px!important;
+        height: 80px!important;
+        background-image: url("/static/assets/img/aspergersnetwork.png"), linear-gradient(#ccc, #99ccff);
+        background-position: left;
+        background-size: 100%;
+        background-repeat:no-repeat;
+        width:100%;
+        position:relative!important;
+    }
+    
+    #hero-unit{
+        margin-top:-28px!important;
+        border-bottom-left-radius:18px;
+        border-bottom-right-radius:18px;
+    }
+    
+    #todays-highlights{
+        border-top:none!important;
+    }
+    
+    #nav-actual{
+        width:89.5%!important;
+        display:none;
+    }
+
+    #body #todays-highlights .news-items .news-card{
+        width:100%!important;
+        margin: 0 auto;
+        margin-bottom:70px;
+        padding:0px!important;
+    }
+    #footer{
+        width:90%;
+        margin-bottom:100px;
+    }
+    
+    #footer #links{
+        display: none!important;
+    }
+    
+    #footer #copyright dl{
+        width:100%!important;
+        float:none!important;
+        text-align:right;
+    }
+}
