@@ -156,6 +156,12 @@
 
 #whatwedo h2{
     font-family: 'century-gothic', sans-serif;
+    text-align: center;
+}
+
+.half{
+    width:50%;
+    float:left;
 }
 
 /*
