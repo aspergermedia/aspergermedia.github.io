@@ -144,76 +144,18 @@
     text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-
 /*
- News Items
+    Index Page Styling
 */
-#body .news-items{
-    /* unset */
-}
 
-#body #todays-highlights {
-    border-top: 1px solid #ccc;
-}
-
-#body #todays-highlights .news-items .news-card{
-    width:44%;
-    height: 400px;
-    float:left;
-    padding: 34px;
-    padding-bottom: 40px!important;
-    padding-top:10px!important;
-    
-}
-
-#body #todays-highlights .news-items .news-card .news-image{
-    border-top-left-radius:18px;
-    border-top-right-radius:18px;
-    height:200px;
-    overflow:hidden;
-    background-repeat: no-repeat, repeat;
-    background-position: center; /* Center the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-#body #todays-highlights .news-items .news-card .news-story .heading{
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    margin-top: 0px;
-    padding:10px;
-    font-size:14pt;
-    height:36px;
-    text-align:center;
-    vertical-align:middle;
-}
-
-#body #todays-highlights .news-items .news-card .news-story .subheading{
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    margin-top: -38px;
-    margin-bottom:22px;
-    padding:10px;
-    text-align:center;
-    font-family:Arial, sans-serif;
-}
-
-#body #todays-highlights .news-items .news-card .news-story .news-intro{
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+#whatwedo{
+    margin-top:20px;
+    border-top:1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    margin-top: -22px;
-    padding:10px;
-    font-family: 'Open Sans', sans-serif;
-    font-size:10pt;
-    min-height:100px;
-    height:100px;
-    max-height:100px;
-    overflow: hidden;
 }
 
-#body #all-news {
-    border-top: 1px solid #ccc;
-    
+#whatwedo h2{
+    font-family: 'century-gothic', sans-serif;
 }
 
 /*
