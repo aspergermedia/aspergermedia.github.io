@@ -368,7 +368,7 @@ iPad Pro 12.5" Landscape
     #nav{
         top:0px!important;
         height: 80px!important;
-        background-image: url("/static/assets/img/aspergersnetwork.png"), linear-gradient(#ccc, #99ccff);
+        background-image: url("/static/assets/img/aspergermedia.png"), linear-gradient(#ccc, #99ccff);
         background-position: left;
         background-size: 100%;
         background-repeat:no-repeat;
@@ -391,12 +391,10 @@ iPad Pro 12.5" Landscape
         display:none;
     }
 
-    #body #todays-highlights .news-items .news-card{
-        width:100%!important;
-        margin: 0 auto;
-        margin-bottom:70px;
-        padding:0px!important;
+    .half{
+        width: 100%!important;
     }
+
     #footer{
         width:90%;
         margin-bottom:100px;
@@ -410,9 +408,5 @@ iPad Pro 12.5" Landscape
         width:100%!important;
         float:none!important;
         text-align:right;
-    }
-
-    .half{
-        width: 100%!important;
     }
 }
