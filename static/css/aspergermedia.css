@@ -411,4 +411,8 @@ iPad Pro 12.5" Landscape
         float:none!important;
         text-align:right;
     }
+
+    .half{
+        width: 100%!important;
+    }
 }
