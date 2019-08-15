@@ -132,15 +132,22 @@
 #body #hero-unit h1{
     font-family: 'century-gothic', sans-serif;
     text-align: center;
-    border-top:100px;
+    border-top: 100px;
+    margin-top: 50px;
     color: #fff;
+    float: left;
+    width: 100%;
     text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #body #hero-unit h3{
     font-family: 'open sans', sans-serif;
     text-align: center;
-    color:#fff;
+    border-top: 100px;
+    margin-top: 50px;
+    color: #fff;
+    float: left;
+    width: 100%;
     text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
