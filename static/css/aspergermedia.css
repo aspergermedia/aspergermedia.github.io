@@ -155,13 +155,13 @@
     Index Page Styling
 */
 
-#whatwedo{
+#section-light{
     margin-top:20px;
     border-top:1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
 
-#whatwedo h2{
+h2{
     font-family: 'century-gothic', sans-serif;
     text-align: center;
 }
