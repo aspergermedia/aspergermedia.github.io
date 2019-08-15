@@ -173,6 +173,12 @@
 
 .half h4{
     font-family: 'open sans', sans-serif;
+    text-align:center;
+}
+
+.half p{
+    padding:10px;
+    font-family: Helvetica, sans-serif;
 }
 
 /*
