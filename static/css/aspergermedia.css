@@ -354,7 +354,7 @@ iPad Pro 12.5" Landscape
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
     #header #user-links{
-        margin-top:-43px;
+        /*margin-top:-43px;*/
         margin-right: 81px!important;
     }
     
