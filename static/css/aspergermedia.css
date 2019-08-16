@@ -151,6 +151,19 @@
     text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+#body #mini-hero-unit {
+    margin-top:58px;
+    height:130px;
+    background: #aaa!important;
+}
+
+#body #mini-hero-unit h1{
+    text-align:left;
+    padding: 20px;
+    font-family: 'century-gothic', sans-serif;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 /*
     Index Page Styling
 */
