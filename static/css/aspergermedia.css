@@ -155,7 +155,6 @@
     margin-top:58px;
     height:85px;
     background: #aaa!important;
-    margin
 }
 
 #body #mini-hero-unit h1{
@@ -179,6 +178,10 @@
 h2{
     font-family: 'century-gothic', sans-serif;
     text-align: center;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
 }
 
 .half{
