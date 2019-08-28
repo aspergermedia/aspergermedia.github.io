@@ -151,12 +151,26 @@
     text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+#body #mini-hero-unit {
+    margin-top:58px;
+    height:85px;
+    background: #aaa!important;
+}
+
+#body #mini-hero-unit h1{
+    text-align:left;
+    padding: 20px;
+    font-family: 'century-gothic', sans-serif;
+    color:#fff;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 /*
     Index Page Styling
 */
 
 .section-light{
-    margin-top:20px;
+    margin-top:0px;
     border-top:1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
@@ -164,6 +178,10 @@
 h2{
     font-family: 'century-gothic', sans-serif;
     text-align: center;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
 }
 
 .half{
@@ -192,7 +210,7 @@ h2{
 }
 
 #footer #links{
-    width: 85%;
+    width: 60%;
 }
 
 #footer #links dl{
@@ -231,7 +249,7 @@ h2{
 }
 
 #footer #copyright dl{
-    width:29%;
+    width:40%;
     float:right;
 }
 
