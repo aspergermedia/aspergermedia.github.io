@@ -214,15 +214,16 @@ p {
 }
 
 .team-card .team-image{
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 450px;
+    background-position: center!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    height: 379px;
 }
 
 .team-card .team-info{
     background: #fff;
     border-top: 1px solid #ccc;
+    padding: 15px;
 }
 
 .team-card .team-info h3{
