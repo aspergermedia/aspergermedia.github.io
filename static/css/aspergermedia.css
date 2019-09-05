@@ -215,7 +215,7 @@ p {
 
 .team-card .team-image{
     background-position: center!important;
-    background-size: contain!important;
+    background-size: cover!important;
     background-repeat: no-repeat!important;
     height: 379px;
 }
