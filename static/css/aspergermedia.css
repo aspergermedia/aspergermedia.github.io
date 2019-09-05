@@ -207,24 +207,25 @@ p {
     Team Card
 */
 
-#section-light .team-card{
+.team-card{
     width: 33%; 
     margin: 0 auto;
     border: 1px solid #ccc;
 }
 
-#section-light .team-card .team-image{
+.team-card .team-image{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    height: 450px;
 }
 
-#section-light .team-card .team-info{
+.team-card .team-info{
     background: #fff;
     border-top: 1px solid #ccc;
 }
 
-#section-light .team-card .team-info h3{
+.team-card .team-info h3{
     font-family: 'Open-Sans', sans-serif;
 }
 
