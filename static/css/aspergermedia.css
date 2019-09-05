@@ -230,6 +230,9 @@ p {
     font-family: 'Open-Sans', sans-serif;
 }
 
+.team-card .team-info h4{
+    font-family: Helvetica, sans-serif;
+}
 
 /*
  Footer styles
