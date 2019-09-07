@@ -494,12 +494,11 @@ iPad Pro 12.5" Landscape
         padding: 3px;
         border: 1px solid #ccc;
         background: #fff;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
         margin: 0 auto;
-    }
-    
-    .half .image img{
-        width: 380px;
-        height: 265px;
     }
 
     .team-card{
