@@ -207,6 +207,12 @@ p {
     font-family: Helvetica, sans-serif;
 }
 
+.half .image{
+    width: 75%;
+    height: auto;
+    overflow: hidden;
+}
+
 .half .image img{
     padding: 3px;
     border: 1px solid #ccc;
