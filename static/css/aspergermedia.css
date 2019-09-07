@@ -486,6 +486,22 @@ iPad Pro 12.5" Landscape
         width: 100%!important;
     }
 
+    .half .image{
+        width: 405px;
+        height: 290px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 3px;
+        border: 1px solid #ccc;
+        background: #fff;
+        margin: 0 auto;
+    }
+    
+    .half .image img{
+        width: 405px;
+        height: 290px;
+    }
+
     .team-card{
         width: 100%; 
         margin: 0 auto;
