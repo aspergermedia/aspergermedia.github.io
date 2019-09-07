@@ -487,8 +487,8 @@ iPad Pro 12.5" Landscape
     }
 
     .half .image{
-        width: 405px;
-        height: 290px;
+        width: 380px;
+        height: 265px;
         overflow: hidden;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding: 3px;
@@ -498,8 +498,8 @@ iPad Pro 12.5" Landscape
     }
     
     .half .image img{
-        width: 405px;
-        height: 290px;
+        width: 380px;
+        height: 265px;
     }
 
     .team-card{
