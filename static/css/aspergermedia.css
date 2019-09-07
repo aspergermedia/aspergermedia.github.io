@@ -229,25 +229,44 @@ p {
     border: 1px solid #ccc;
 }
 
-.team-card .team-image{
-    background-position: center!important;
-    background-size: cover!important;
-    background-repeat: no-repeat!important;
-    height: 379px;
+.team-card .container {
+    position: relative;
+    width: 50%;
+  }
+  
+.team-card .image {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-.team-card .team-info{
-    background: #fff;
-    border-top: 1px solid #ccc;
-    padding: 15px;
+.team-card .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
 }
 
-.team-card .team-info h3{
-    font-family: 'Open Sans', sans-serif;
+.team-card .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
 }
 
-.team-card .team-info h4{
-    font-family: Helvetica, sans-serif;
+.team-card .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /*
