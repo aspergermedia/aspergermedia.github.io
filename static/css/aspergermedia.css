@@ -538,6 +538,10 @@ iPad Pro 12.5" Landscape
         border: 1px solid #ccc;
     }
 
+    .team-card .text p{
+        display:none!important;
+    }
+
     #footer{
         width:90%;
         margin-bottom:100px;
