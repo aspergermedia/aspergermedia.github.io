@@ -207,6 +207,12 @@ p {
     font-family: Helvetica, sans-serif;
 }
 
+.half .image img{
+    padding: 3px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
 /* 
     Team Card
 */
