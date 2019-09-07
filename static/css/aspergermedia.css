@@ -208,18 +208,16 @@ p {
 }
 
 .half .image{
-    width: 75%;
-    height: auto;
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.half .image img{
     padding: 3px;
     border: 1px solid #ccc;
     background: #fff;
-    width: 400px;
-    height: 450px;
+}
+
+.half .image img{
+    width: 450px;
+    height: 400px;
 }
 
 /* 
