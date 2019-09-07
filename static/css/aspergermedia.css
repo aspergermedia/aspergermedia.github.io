@@ -209,15 +209,13 @@ p {
 
 .half .image{
     width: 80%;
-    overflow: hidden;
+    height: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 3px;
     border: 1px solid #ccc;
-    background: #fff;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: 103%!important;
     margin: 0 auto;
 }
 
