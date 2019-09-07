@@ -208,19 +208,17 @@ p {
 }
 
 .half .image{
-    width: 555px;
-    height: 400px;
+    width: 80%;
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 3px;
     border: 1px solid #ccc;
     background: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     margin: 0 auto;
-}
-
-.half .image img{
-    width: 555px;
-    height: 400px;
 }
 
 /* 
@@ -487,8 +485,7 @@ iPad Pro 12.5" Landscape
     }
 
     .half .image{
-        width: 380px;
-        height: 265px;
+        width: 80%;
         overflow: hidden;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding: 3px;
