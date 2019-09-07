@@ -269,6 +269,23 @@ p {
     text-align: center;
 }
 
+.team-card .text h4{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.team-card .text a{
+    color: #fff;
+}
+
+.team-card .text a:hover{
+    color: #fff;
+}
+
+.team-card .text a:visited{
+    color: #fff;
+}
+
+
 /*
  Footer styles
  */
