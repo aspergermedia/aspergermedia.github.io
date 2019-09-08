@@ -220,69 +220,27 @@ p {
 }
 
 /* 
-    Team Card
+    Team Item
 */
 
-.team-card{
-    width: 33%; 
-    margin: 0 auto;
-    border: 1px solid #ccc;
+.team-item{
+    width: 100%;
 }
 
-.team-card .container {
-    position: relative;
-    width: 50%;
-  }
-  
-.team-card .image {
-    display: block;
-    width: 200%;
-    height: auto;
+.team-item .team-image{
+    width: 30%;
 }
 
-.team-card .overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: #3100bd;
-    overflow: hidden;
-    width: 200%;
-    height:0;
-    transition: .5s ease;
+.team-item .team-image img{
+    height: 55px;
+    width: 55px;
+    border-radius: 27px;
+    float: left;
 }
 
-.team-card .container:hover .overlay {
-    bottom: 0;
-    height: 100%;
-}
-
-.team-card .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 45%;
-    left: 30%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-20%, -50%);
-    text-align: center;
-}
-
-.team-card .text h4{
-    font-family: 'Open Sans', sans-serif;
-}
-
-.team-card .text a{
-    color: #fff;
-}
-
-.team-card .text a:hover{
-    color: #fff;
-}
-
-.team-card .text a:visited{
-    color: #fff;
+.team-item .team-info{
+    width: 65%
+    float: left;
 }
 
 
