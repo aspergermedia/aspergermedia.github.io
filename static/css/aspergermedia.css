@@ -232,15 +232,16 @@ p {
 }
 
 .team-item .team-image img{
-    height: 55px;
-    width: 55px;
-    border-radius: 27px;
+    height: 235px;
+    width: 230px;
+    border-radius: 125px;
     float: left;
 }
 
 .team-item .team-info{
-    width: 65%
+    width: 65%;
     float: left;
+    padding: 10%;
 }
 
 
