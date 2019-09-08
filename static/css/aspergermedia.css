@@ -236,11 +236,12 @@ p {
     width: 230px;
     border-radius: 125px;
     float: left;
+    margin-left: 60px;
     margin-top: 60px;
 }
 
 .team-item .team-info{
-    width: 60%;
+    width: 53%;
     float: left;
     padding: 10%;
     margin-top: -80px;
