@@ -239,9 +239,10 @@ p {
 }
 
 .team-item .team-info{
-    width: 65%;
+    width: 60%;
     float: left;
     padding: 10%;
+    margin-top: -80px;
 }
 
 
