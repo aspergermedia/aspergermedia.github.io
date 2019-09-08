@@ -236,6 +236,7 @@ p {
     width: 230px;
     border-radius: 125px;
     float: left;
+    margin-top: 60px;
 }
 
 .team-item .team-info{
@@ -243,6 +244,10 @@ p {
     float: left;
     padding: 10%;
     margin-top: -80px;
+}
+
+.team-info h4{
+    font-family: 'Open Sans', sans-serif;
 }
 
 
