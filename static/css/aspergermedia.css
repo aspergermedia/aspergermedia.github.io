@@ -246,6 +246,11 @@ p {
     margin-top: -80px;
 }
 
+
+.team-info h2{
+    text-align: left!important;
+}
+
 .team-info h4{
     font-family: 'Open Sans', sans-serif;
 }
