@@ -255,10 +255,20 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-.team-info p a:visited{
+.team-info p a{
     color: #00f;
+    text-decoration: none;
 }
 
+.team-info p a:visited{
+    color: #00f;
+    text-decoration: none;
+}
+
+.team-info p a:hover{
+    color: #00f;
+    text-decoration: underline;
+}
 
 /*
  Footer styles
