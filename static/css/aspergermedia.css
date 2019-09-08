@@ -255,6 +255,10 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+.team-info p a:visited{
+    color: #00f;
+}
+
 
 /*
  Footer styles
