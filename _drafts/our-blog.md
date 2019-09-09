@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "S Set Farewell"
+title: "Welcome to Our Blog"
 date: 2019-07-20
 ---
 
