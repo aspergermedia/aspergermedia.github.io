@@ -456,6 +456,43 @@ iPad Pro 12.5" Landscape
 }
 
 /*
+ iPad Mini
+ Portrait
+ */
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {
+    
+    #footer #links{
+        display: none!important;
+    }
+    
+    #footer #copyright dl{
+        width:100%!important;
+        float:none!important;
+        text-align:right;
+    }
+}
+
+/*
+ iPad Mini
+ Landscape
+ */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1)  {
+
+    
+    #footer #links{
+        display: none!important;
+    }
+    
+    #footer #copyright dl{
+        width:100%!important;
+        float:none!important;
+        text-align:right;
+    }
+}
+
+/*
  Phone views
  */
 @media screen and (max-width: 500px) {
