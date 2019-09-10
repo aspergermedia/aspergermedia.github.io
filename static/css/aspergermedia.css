@@ -381,6 +381,21 @@ p {
         padding:40px!important;
         padding-bottom: 60px!important;
     }
+
+    #body .team-item{
+        width: 50%;
+        float: left;
+    }
+
+    #body .team-item .team-image{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #body .team-item .team-info{
+        width: 100%;
+        margin: 0 auto;
+    }
     
     #footer{
         width:95%;
