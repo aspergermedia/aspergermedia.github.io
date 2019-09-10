@@ -391,8 +391,13 @@ p {
         width: 100%;
     }
 
+    #body .team-item .team-image img{
+        padding: none;
+    }
+
     #body .team-item .team-info{
         width: 100%;
+        padding: none;
     }
     
     #footer{
