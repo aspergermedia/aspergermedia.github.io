@@ -574,14 +574,24 @@ iPad Pro 12.5" Landscape
         margin: 0 auto;
     }
 
-    .team-card{
-        width: 100%; 
+    #body .team-item{
+        width: 100%;
         margin: 0 auto;
-        border: 1px solid #ccc;
     }
 
-    .team-card .text p{
-        display:none!important;
+    #body .team-item .team-image{
+        width: 100%;
+    }
+
+    #body .team-item .team-image img{
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    #body .team-item .team-info{
+        width: 100%;
+        padding: none;
+        margin-top: -5px;
     }
 
     #footer{
