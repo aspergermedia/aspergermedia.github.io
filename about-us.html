@@ -15,28 +15,18 @@ title: About Asperger Media | Autistic. Information Tech.
 <div class="section-light">
     <h2>our team</h2>
     <p>The team at Asperger Media are here to help you make the most of your abilities. </p>
-    <div class="team-item">
-        <div class="team-image">
-            <img src="/static/img/team/bencousins.jpg" alt="Ben Cousins - Managing Director" class="image">
+    {% for staff_member in site.staff_members %}
+        <div class="team-item">
+            <div class="team-image">
+                <img src="{{ staff_member.image }}" alt="{{ staff_member.name }} - {{ staff_member.position }}" class="image">
+            </div>
+            <div class="team-info">
+                <h2>{{ staff_member.name }}</h2>
+                <h4>{{ staff_member.position }}</h4>
+                {{ staff_member.content | markdownify }}
+            </div>
         </div>
-        <div class="team-info">
-            <h2>Ben Cousins</h2>
-            <h4>Managing Director</h4>
-            <p>
-                Ben Cousins is the Managing Director of Asperger Media Pty. Ltd. He has full operational oversight over day-to-day
-                activities and works hard to ensure that people with autism are able to see what's going on in the world around them. 
-            </p>
-            <p>
-                Ben professionally trained in Information Technology at TAFE, NSW, and still tinkers with computers in his spare time.
-            </p>
-            <p>
-                Ben is a keen rail enthusiast and photo journalist, who works to document the goings-on of the Sydney rail network. 
-            </p>
-            <p>
-                You can contact Ben at <a href="//twitter.com/bdc8495" target="_new">Twitter</a>, <a href="https://www.linkedin.com/in/ben-cousins-586b9427/" target="_new">Linkedin</a>, 
-                or by <a href="mailto:ben.cousins@asperger.media">Email</a>
-            </p>
-        </div>
-    </div>
+    {% endfor %}
+    
     <br style="clear: both;">
 </div>

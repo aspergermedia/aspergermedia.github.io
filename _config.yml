@@ -1,3 +1,6 @@
 name: Asperger Media | Autistic. Information Tech.
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+collections:
+  staff_members:
+    output: true
