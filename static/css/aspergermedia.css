@@ -651,3 +651,14 @@ iPad Pro 12.5" Landscape
         text-align:right;
     }
 }
+
+/* 
+    iPhone SE views
+*/
+
+@media screen and (max-width: 320px) {
+    #body .team-item .team-image img{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+}
