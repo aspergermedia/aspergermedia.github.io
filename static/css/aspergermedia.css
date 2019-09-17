@@ -658,7 +658,7 @@ iPad Pro 12.5" Landscape
 
 @media screen and (max-width: 320px) {
     #body .team-item .team-image img{
-        margin-left: 20px;
+        margin-left: 15px;
         margin-top: 30px;
     }
 }
