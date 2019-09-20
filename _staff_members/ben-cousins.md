@@ -1,7 +1,7 @@
 ---
 name: Ben Cousins
 position: Managing Director
-image: /static/img/team/bencousins.jpg
+image: /static/img/team/bencousinsgrey.png
 ---
 Ben Cousins is the Managing Director of Asperger Media Pty. Ltd. He has full operational oversight over day-to-day activities and works hard to ensure that people with autism are able to see what's going on in the world around them. 
 
