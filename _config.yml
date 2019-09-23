@@ -4,3 +4,5 @@ permalink: /blog/:year/:month/:day/:title
 collections:
   staff_members:
     output: true
+  drafts:
+    output: true
