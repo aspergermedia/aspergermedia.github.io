@@ -12,4 +12,4 @@ Ben professionally trained in Information Technology at TAFE, NSW, and still tin
 Ben is a keen rail enthusiast and photo journalist, who works to document the goings-on of the Sydney rail network. 
 
 You can contact Ben at <a href="//twitter.com/bdc8495" target="_new">Twitter</a>, <a href="https://www.linkedin.com/in/altbencousins/" target="_new">Linkedin</a>, 
-or by <a href="mailto:ben.cousins@asperger.media">Email</a>
+or by <a href="mailto:hello@asperger.media">Email</a>
