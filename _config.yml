@@ -8,7 +8,7 @@ collections:
     output: true
 defaults:
     scope:
-      path: "/blog/drafts"
+      path: ""
       type: drafts
     values:
       layout: draft
