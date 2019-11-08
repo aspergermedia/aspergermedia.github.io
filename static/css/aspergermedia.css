@@ -607,8 +607,11 @@ iPad Pro 12.5" Landscape
     }
     
     .logo {
-        background-color: #4CAF50;
+        background-color: #ccc;
         color: white;
+        background-image: url("/static/img/aspergermedia.png");
+        background-repeat: no-repeat;
+        background-position: left;
     }
     
     #hero-unit{
