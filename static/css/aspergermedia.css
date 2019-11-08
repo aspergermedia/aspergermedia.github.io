@@ -591,6 +591,8 @@ iPad Pro 12.5" Landscape
         text-decoration: none;
         font-size: 17px;
         display: block;
+        font-family: 'century-gothic';
+        font-weight: bold;
     }
     
     .mobinav a.icon {
@@ -613,6 +615,7 @@ iPad Pro 12.5" Landscape
         background-image: url("/static/img/aspergermedia.png");
         background-repeat: no-repeat;
         background-position: left;
+        background-size: contain;
     }
     
     #hero-unit{
