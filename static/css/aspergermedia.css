@@ -601,7 +601,8 @@ iPad Pro 12.5" Landscape
         position: absolute;
         right: 0;
         top: 0;
-        padding: 25px;
+        padding: 14px;
+        width: 5%;
     }
     
     .mobinav a:hover {
