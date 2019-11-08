@@ -596,7 +596,7 @@ iPad Pro 12.5" Landscape
     }
     
     .mobinav a.icon {
-        background: black;
+        background: #ccc;
         display: block;
         position: absolute;
         right: 0;
@@ -614,7 +614,7 @@ iPad Pro 12.5" Landscape
         color: white;
         background-image: url("/static/img/aspergermedia.png");
         background-repeat: no-repeat;
-        background-position: left;
+        background-position: 20% 0%;
         background-size: contain;
     }
     
