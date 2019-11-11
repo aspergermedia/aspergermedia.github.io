@@ -1,8 +1,8 @@
 /*
- aspergermedia.css
- Asperger Media Website
- Asperger Media © 2019
- */
+    aspergermedia.css
+    Asperger Media Website
+    Asperger Media © 2019
+*/
 
 /*
  Global styles
@@ -103,6 +103,10 @@
     background-color:#3100BC
 }
 
+#mobinav{
+    display:none;
+}
+
 /*
  Body styles
  */
@@ -124,7 +128,7 @@
  */
 
 #body #hero-unit {
-    margin-top:58px;
+    margin-top:0px;
     height:220px;
     background: #aaa!important;
 }
@@ -144,7 +148,7 @@
     font-family: 'open sans', sans-serif;
     text-align: center;
     border-top: 100px;
-    margin-top: 20px;
+    margin-top: 0px;
     color: #fff;
     float: left;
     width: 100%;
@@ -154,7 +158,7 @@
 #body #mini-hero-unit {
     background-color: #666;
     background-position: center;
-    margin-top: 55px;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding: 10px;
     box-shadow: 0 1px 1px #666;
@@ -568,14 +572,51 @@ iPad Pro 12.5" Landscape
     }
 
     #nav{
-        top:0px!important;
-        height: 80px!important;
-        background-image: url("/static/assets/img/aspergermedia.png"), linear-gradient(#ccc, #99ccff);
-        background-position: left;
-        background-size: 100%;
-        background-repeat:no-repeat;
-        width:100%;
-        position:relative!important;
+        display:none;
+    }
+
+    .mobinav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+      
+    .mobinav #myLinks {
+        display: none;
+    }
+    
+    .mobinav a {
+        color: white;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        font-family: 'century-gothic';
+        font-weight: bold;
+    }
+    
+    .mobinav a.icon {
+        background: #ccc;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 13px;
+        width: 5%;
+    }
+    
+    .mobinav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .logo {
+        background-color: #ccc;
+        color: white;
+        background-image: url("/static/img/aspergermedia.png");
+        background-repeat: no-repeat;
+        background-position: 20% 0%;
+        background-size: contain;
     }
     
     #hero-unit{

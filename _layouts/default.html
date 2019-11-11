@@ -31,7 +31,7 @@
             <div id="user-links">
                 call us: <a href="tel:+61280386324">(02) 8038 6324</a>
             </div>
-        </div>
+		</div>
         <div id="nav">
             <ul id="nav-actual">
                 <li>
@@ -44,7 +44,21 @@
                     <a href="/blog">blog</a>
                 </li>
             </div>
-        </div>
+		</div>
+		<!-- Top Navigation Menu -->
+		<div class="mobinav">
+			<a href="/" class="logo"></a>
+			<div id="myLinks">
+				<a href="/">home</a>
+				<a href="/about">about</a>
+				<a href="/blog">blog</a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<span style="color:000;">
+					☰
+				</span>
+			</a>
+		</div>
         <div id="body">
 			{{ content }}
 		</div>
@@ -94,6 +108,16 @@
 						$('#nav').css('top', '81px');
 					}
 				});
+			</script>
+			<script>
+				function myFunction() {
+					var x = document.getElementById("myLinks");
+					if (x.style.display === "block") {
+					x.style.display = "none";
+					} else {
+					x.style.display = "block";
+					}
+				}
 			</script>
 		</body>
 		</html>
