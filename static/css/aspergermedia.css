@@ -137,7 +137,7 @@
     font-family: 'century-gothic', sans-serif;
     text-align: center;
     border-top: 100px;
-    margin-top: 50px;
+    margin-top: 70px;
     color: #fff;
     float: left;
     width: 100%;
@@ -158,7 +158,7 @@
 #body #mini-hero-unit {
     background-color: #666;
     background-position: center;
-    margin-top: 0px;
+    margin-top: 0px; 
     margin-bottom: 0px;
     padding: 10px;
     box-shadow: 0 1px 1px #666;
@@ -196,6 +196,29 @@
     border-top:1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
+
+.section-light .image-left{
+    width: 35%;
+    padding: 2%;
+    float: left;
+}
+
+.section-light .content-right{
+    width: 60%;
+    float: left;
+}
+
+.section-light .content-left{
+    width: 60%;
+    float: left;
+}
+
+.section-light .image-right{
+    width: 35%;
+    padding: 2%;
+    float: right;
+}
+
 
 h2{
     font-family: 'century-gothic', sans-serif;
