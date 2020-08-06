@@ -34,13 +34,13 @@
 }
 
 #header #user-links {
-    width:40%;
+    width:26%;
     float:right;
     text-align:right;
     font-family: 'century-gothic', sans-serif;
     font-size: 14pt;
-    margin-top:25px;
-    margin-right: 100px!important;
+    margin-top:12px;
+    margin-right: 15px!important;
     color: #000;
 }
 
