@@ -7,7 +7,9 @@ Ben Cousins is the Managing Director of Asperger Media Pty. Ltd. He has full ope
 
 Ben sits on the board of BREED Australia, a Charity and Business Incubator based at the Nirimba Education Precinct at Quakers Hill, with an additional facility in Temora, NSW. 
 
-Ben professionally trained in Information Technology at TAFE, NSW, and still tinkers with computers in his spare time. He has experience in Website Development, Server Administration, Systems Administration, and can (and has) diagnose(d) a computer 16,000km away without even touching it
+Ben professionally trained in Information Technology at TAFE, NSW, and still tinkers with computers in his spare time. He has experience in Website Development, Server Administration, Systems Administration, and can (and has) diagnose(d) a computer 16,000km away without even touching it.
+
+For his Diploma Systems Administration project, Ben commissioned a Voice over IP system in his house, utilising Cisco IP telephones. Cisco Phones tend to not play nice with conventional VoIP, but they work absolutely fine in his house. He can manage your VoIP system.
 
 Ben is a keen rail enthusiast and photo journalist, who works to document the goings-on of the Sydney rail network. 
 
