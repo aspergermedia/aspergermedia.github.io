@@ -34,7 +34,7 @@
 }
 
 #header #user-links {
-    width:26%;
+    width:27%;
     float:right;
     text-align:right;
     font-family: 'century-gothic', sans-serif;
@@ -472,7 +472,7 @@ iPad Pro 12.5" Landscape
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
    #header #user-links{
         /*margin-top:-43px;*/
-        margin-right: 81px!important;
+        margin-right: 20px!important;
     }
     
     #body #todays-highlights .news-items .news-card{
@@ -488,8 +488,9 @@ iPad Pro 12.5" Landscape
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     #header #user-links{
-        margin-top:20px;
-        margin-right: 81px!important;
+        margin-top: 14px !important;
+        margin-right: 20px !important;
+        width: 39% !important;
     }
     
     #body #todays-highlights .news-items .news-card{
