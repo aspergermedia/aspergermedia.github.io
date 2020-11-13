@@ -13,5 +13,5 @@ For his Diploma Systems Administration project, Ben commissioned a Voice over IP
 
 Ben is a keen rail enthusiast and photo journalist, who works to document the goings-on of the Sydney rail network. 
 
-You can contact Ben at <a href="//twitter.com/bdc8495" target="_new">Twitter</a>, <a href="https://www.linkedin.com/in/altbencousins/" target="_new">Linkedin</a>, 
+You can contact Ben at <a href="//twitter.com/s3_gunzel" target="_new">Twitter</a>, <a href="https://www.linkedin.com/in/altbencousins/" target="_new">Linkedin</a>, 
 or by <a href="mailto:hello@asperger.media">Email</a>
