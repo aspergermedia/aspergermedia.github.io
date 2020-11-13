@@ -3,7 +3,7 @@ layout: post
 title: "Asperger's Network Development Post 1"
 subtitle: "How We Are Building Our New Forums Index - One Error At A Time"
 date: 2020-04-13
-author: Ben Cousins
+author: Ben Cousins - Managing Director
 hero-image: 
 ---
 How was your Easter? 
