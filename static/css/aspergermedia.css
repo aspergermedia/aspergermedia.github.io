@@ -8,7 +8,7 @@
  Global styles
  */
 
- body{
+ body{ 
     margin:0px!important;
 }
 /*
@@ -100,7 +100,7 @@
 }
 
 #nav #nav-actual a:hover{
-    background-color:#3100BC
+    background-color:#4301FF
 }
 
 #mobinav{
@@ -369,7 +369,7 @@ p {
 
 #pricing-structure .pricing-tbl-ct-1{
     width: 57.9%;
-    background-color: #ccc;
+    background-color: #eee;
     padding: 10px; 
     font-size: 14pt; 
     font-family: 'Open Sans', sans-serif;
@@ -380,7 +380,7 @@ p {
 
 #pricing-structure .pricing-tbl-ct-2{
     width: 15%;
-    background-color: #ccc;
+    background-color: #eee;
     padding: 10px; 
     font-size: 14pt; 
     font-family: 'Open Sans', sans-serif;
@@ -394,7 +394,7 @@ p {
 
 #pricing-structure .pricing-tbl-ct-3{
     width: 20%;
-    background-color: #ccc;
+    background-color: #eee;
     padding: 10px; 
     font-size: 14pt; 
     font-family: 'Open Sans', sans-serif;
