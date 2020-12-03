@@ -331,7 +331,7 @@ p {
 }
 
 #pricing-structure .pricing-tbl-hd-1{
-    width: 57.9%;
+    width: 55%;
     background-color: #4301FF;
     padding: 10px; 
     font-size: 14pt; 
@@ -342,14 +342,14 @@ p {
 }
 
 #pricing-structure .pricing-tbl-hd-2{
-    width: 15%;
+    width: 18%;
     background-color: #4301FF;
     padding: 10px; 
     font-size: 14pt; 
     font-family: 'century-gothic', sans-serif;
     color: #fff;
     float: left;
-    margin-left: 61.5%;
+    margin-left: 58.5%;
     margin-top: -46px;
     border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
@@ -368,7 +368,7 @@ p {
 }
 
 #pricing-structure .pricing-tbl-ct-1{
-    width: 57.9%;
+    width: 55%;
     background-color: #eee;
     padding: 10px; 
     font-size: 14pt; 
@@ -379,14 +379,14 @@ p {
 }
 
 #pricing-structure .pricing-tbl-ct-2{
-    width: 15%;
+    width: 18%;
     background-color: #eee;
     padding: 10px; 
     font-size: 14pt; 
     font-family: 'Open Sans', sans-serif;
     color: #000;
     float: left;
-    margin-left: 61.5%;
+    margin-left: 58.5%;
     margin-top: -48px;
     border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
@@ -407,7 +407,7 @@ p {
 #pricing-structure .pricing-tbl-ct-1 .tooltip{
     position: absolute;
     margin-top: -25px;
-    margin-left: 340px;
+    margin-left: 318px;
     text-align: center;
     background-color: #4301FF;
     border-radius: 50%;
