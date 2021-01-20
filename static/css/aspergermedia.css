@@ -195,7 +195,6 @@
     margin-top:0px;
     margin-bottom: 20px;
     border-top:1px solid #ccc;
-    border-bottom: 1px solid #ccc;
 }
 
 .section-light .image-left{
@@ -207,7 +206,7 @@
 .section-light .image-left img{
     max-width: 100%;
     border: 2px solid #ccc;
-    margin-top: -45px;
+    margin-top: 15px;
 }
 
 .section-light .content-right{
