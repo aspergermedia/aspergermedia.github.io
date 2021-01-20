@@ -193,6 +193,7 @@
 
 .section-light{
     margin-top:0px;
+    margin-bottom: 20px;
     border-top:1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
