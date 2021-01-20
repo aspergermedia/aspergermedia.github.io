@@ -203,6 +203,12 @@
     float: left;
 }
 
+.section-light .image-left img{
+    max-width: 100%;
+    border: 2px solid #ccc;
+    margin-top: -45px;
+}
+
 .section-light .content-right{
     width: 60%;
     float: left;
