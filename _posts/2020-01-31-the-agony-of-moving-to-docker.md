@@ -12,7 +12,7 @@ In Computer Science, there are two types of people. Those who use bare metal and
 
 As a SysAdmin, I had always considered myself capable of doing everything that I needed to. Right down to spending a majority of my time in a terminal. 
 
-A couple of years ago, I looked into automated deployments, and in that time we've gone from Gitlab to Github. Our deployment needs changed ad we moved to Jenkins and Github. 
+A couple of years ago, I looked into automated deployments, and in that time we've gone from Gitlab to Github. Our deployment needs changed and we moved to Jenkins and Github. 
 
 Jenkins is a versatile piece of software - you can do just about anything you can think of on it. We are now building Docker Containers, deploying them to our Harbor instance, and then are using Jenkins to pull the containers. 
 
