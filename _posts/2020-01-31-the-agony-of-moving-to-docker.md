@@ -25,6 +25,8 @@ Getting to this point was a bit rough. We ran into a few problems.
 	<img src="/static/img/blog/agony-of-docker/img1-pfsense.png">
 </a>
 
+(Click or tap the image for full size)
+
 Initially, we believed that the way that SSH works was to do a DNS lookup and try to connect to the *external IP* of the server. We didn't account for the fact the external IP was the same as the firewall IP. What we think happened was that the firewall went "Oh, that's my WAN IP, we'll quietly not send that out", and tried to redirect the traffic. 
 
 The way that firewalls work is like your home router, you forward ports on your WAN interface. If pfSense doesn't push the traffic to the WAN interface, stupid things happen. 
