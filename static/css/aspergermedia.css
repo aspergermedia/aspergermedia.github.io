@@ -231,6 +231,11 @@ h2{
     text-align: center;
 }
 
+h3{
+    font-family: 'century-gothic', sans-serif;
+    text-align: left;
+}
+
 p {
     font-family: Helvetica, sans-serif;
 }
