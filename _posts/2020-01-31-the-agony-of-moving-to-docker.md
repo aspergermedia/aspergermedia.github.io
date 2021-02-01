@@ -32,7 +32,7 @@ Initially, we believed that the way that SSH works was to do a DNS lookup and tr
 The way that firewalls work is like your home router, you forward ports on your WAN interface. If pfSense doesn't push the traffic to the WAN interface, stupid things happen. 
 
 ### How We Fixed It
-So, the way the network is set up, all HTTP and HTTPS traffic hits a reverse proxy configured on its own virtual server. This includes our Docker traffic. So instead of going through the WAN on pfSense, we set an /etc/hosts entry for the IP of the reverse proxy, and that fixed the issue. Basically, bypassing the middleman allowed us to push containers without pushing to the external internet, using the LetsEncrypt certificate that we would be using if we pushed to external, because our LetsEncrypt certificates are stored on the reverse proxy. Security, ahoy. 
+So, the way the network is set up, all HTTP and HTTPS traffic hits a reverse proxy configured on its own virtual server. This includes our Docker traffic. So instead of going through the WAN on pfSense, we set an /etc/hosts entry on the Jenkins server for the IP of the reverse proxy, and that fixed the issue. Basically, bypassing the middleman allowed us to push containers without pushing to the external internet, using the LetsEncrypt certificate that we would be using if we pushed to external, because our LetsEncrypt certificates are stored on the reverse proxy. Security, ahoy. 
 
 ## No Such Container
 Docker is... interesting. And so is Bash. 
