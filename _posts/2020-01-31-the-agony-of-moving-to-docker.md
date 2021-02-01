@@ -21,7 +21,9 @@ Getting to this point was a bit rough. We ran into a few problems.
 ## Certificate Valid For pfSense
 `Docker Login` requires a valid certificate to log into a repository. Good, secure software. No issues there. But sometimes weird things happen when both your Jenkins instance and your Container Repository are on the same network. Building in one instance gave us this: 
 
-<img src="/static/img/blog/agony-of-docker/img1-pfsense.png">
+<a href="/static/img/blog/agony-of-docker/img1-pfsense.png" target="_new">
+	<img src="/static/img/blog/agony-of-docker/img1-pfsense.png">
+</a>
 
 Initially, we believed that the way that SSH works was to do a DNS lookup and try to connect to the *external IP* of the server. We didn't account for the fact the external IP was the same as the firewall IP. What we think happened was that the firewall went "Oh, that's my WAN IP, we'll quietly not send that out", and tried to redirect the traffic. 
 
@@ -33,7 +35,9 @@ So, the way the network is set up, all HTTP and HTTPS traffic hits a reverse pro
 ## No Such Container
 Docker is... interesting. And so is Bash. 
 
-<img src="/static/img/blog/agony-of-docker/img2-docker.png">
+<a href="/static/img/blog/agony-of-docker/img2-docker.png" target="_new">
+	<img src="/static/img/blog/agony-of-docker/img2-docker.png">
+</a>
 
 We had been using a naming convention that included dashes. It turns out, Bash doesn't like those. Or Jenkins doesn't. Or something. I don't know, I don't care to find out. I spent a good few hours running builds and logged into the server because I thought I was going insane. That container definitely does exist and there aren't any spelling errors. 
 

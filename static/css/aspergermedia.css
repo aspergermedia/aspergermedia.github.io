@@ -882,6 +882,10 @@ iPad Pro 12.5" Landscape
         margin: 0 auto;
     }
 
+    img{
+        max-width: 330px;
+    }
+
     #body .team-item{
         width: 100%;
         margin: 0 auto;
@@ -926,5 +930,10 @@ iPad Pro 12.5" Landscape
     #body .team-item .team-image img{
         margin-left: 15px;
         margin-top: 30px;
+    }
+
+    img{
+        max-width: 300px;
+        margin: 0 auto;
     }
 }
